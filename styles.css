@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: #1D1616;
+    color: white;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color:#6D2323;
+    padding: 50px;
+    border-right: 2px white;
+}
+
+.profile{
+    padding:10px;
+    text-align: center;
+    margin-bottom:5px;
+}
+.profile h2{
+    font-weight: 500;
+    margin-bottom:5px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.nav-bar a{
+    text-decoration: none   ;
+    color:azure;
+    padding:10px;
+    font-size:23px;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.3s;
+    display: flex;
+    gap:500px;
+}
+.nav-bar a:hover{
+    background-color: yellowgreen;
+    color: black; 
+}
+.Main-content{
+    padding:30px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.social-media{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 600px;
+}
+.header h1{
+    padding:10px;
+}
+.social-media img{
+    height: 30px;
+    width: 30px;
+}
+.social-media button{
+    padding: 5px 10px;
+    border-radius:10px ;
+    margin-bottom: 8px;
+
+}
+.search{
+    display: flex;
+    gap: 5px;
+}
+.search input{
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px;
+}
+.search img {
+    height: 30px;
+    width: 30px;
+}
+.button-icon{
+    background-color: rgb(60, 15, 174);
+    border-radius: 30px;
+}
+.button-icon:hover{ 
+    background-color: blackuu;
+    cursor: pointer;
+}
+.Stats{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.start-card{
+    background-color:#D84040;
+    width: 25%;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.start-card:hover{
+    transform:translateY(-5px);
+    transition: 0.2s;
+}
+.start-card h3{
+    color:aliceblue;
+    margin-bottom: 8px;
+}
+.start-card p{
+    color: white;
+    font-size: 14px;
+}
+
+.Skill-set{
+    background-color:rgb(131, 36, 36) ;
+    padding:30px ;
+    border-radius: 20px ;
+    margin-bottom:20px ;
+}
+.Skill-set h2{
+    margin-bottom: 10px;
+}
+    
+.skills-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.skills-div progress{
+    width: 100%;
+    height:7px;
+    border-radius: 10px;
+}
+.skills-div progress::-webkit-progress-bar
+{
+    background-color: black;
+    border-radius: 10px;
+
+}
+.skills-div progress::-webkit-progress-value{
+    background-color: turquoise;
+    border-radius: 10px;
+}
+.Projects-section{
+    background-color:rgb(131, 36, 36) ;
+    padding:30px ;
+    border-radius: 20px ;;
+}
+.Projects-section h2{
+    margin-bottom: 10px;
+}
+.project-style{
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.project-div{
+    padding: 30px;
+    background-color: #C5705D;
+    border-radius: 10px;
+}
+.project-div h3{ 
+    margin-bottom: 10px;
+}
+.project-div p{
+    margin-bottom: 10px;
+}
+
